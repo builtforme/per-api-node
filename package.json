@@ -1,0 +1,27 @@
+{
+  "name": "per",
+  "version": "0.0.1",
+  "description": "Client library for Per",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/builtforme/per-node.git"
+  },
+  "keywords": [
+    "Per",
+    "usage",
+    "activity",
+    "active",
+    "users",
+    "billing"
+  ],
+  "author": "Built For Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/builtforme/per-node/issues"
+  },
+  "homepage": "https://github.com/builtforme/per-node#readme"
+}
