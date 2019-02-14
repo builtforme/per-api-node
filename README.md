@@ -8,10 +8,12 @@ To use, you’ll need [a Per account](https://useper.com/), with [tokens](https:
 
 ## Usage
 
+To begin, you'll need to add per-api to your project with `npm install per-api`.
+
 ### Adding user activity
 
 ```javascript
-const per = require('per');
+const per = require('per-api');
 
 const perActivityToken = 'xxx'; // from https://useper.com/tokens
 const perActivityTypeId = 'xxx'; // from https://useper.com/activityTypes
@@ -42,7 +44,7 @@ async function doUserAction() {
 Let’s assume that you want a report of user activity for the last week (7 days):
 
 ```javascript
-const per = require('per');
+const per = require('per-api');
 
 const perReportingToken = 'xxx'; // from https://useper.com/tokens
 
