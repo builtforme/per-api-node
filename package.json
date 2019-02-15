@@ -1,11 +1,10 @@
 {
   "name": "per-api",
   "version": "0.0.1",
+  "author": "Built For Me <npm@builtforme.tech> (https://www.builtforme.tech/)",
   "description": "Client library for Per (https://useper.com)",
+  "license": "ISC",
   "main": "index.js",
-  "scripts": {
-    "lint": "eslint ."
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/builtforme/per-api-node.git"
@@ -18,18 +17,29 @@
     "users",
     "billing"
   ],
-  "author": "Built For Me",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/builtforme/per-api-node/issues"
   },
   "homepage": "https://github.com/builtforme/per-api-node#readme",
+  "contributors": [
+    "Jared Reisinger <jared@builtforme.tech>"
+  ],
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "dependencies": {
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
   "devDependencies": {
     "eslint": "5.13.0",
     "eslint-config-airbnb-base": "13.1.0",
     "eslint-config-prettier": "4.0.0",
     "eslint-plugin-import": "2.16.0",
-    "eslint-plugin-json": "1.3.2",
+    "eslint-plugin-json": "1.4.0",
     "eslint-plugin-prettier": "3.0.1",
     "eslint-plugin-promise": "4.0.1",
     "husky": "1.3.1",
@@ -40,9 +50,5 @@
     "hooks": {
       "pre-commit": "pretty-quick --staged && npm run lint"
     }
-  },
-  "dependencies": {
-    "request": "^2.88.0",
-    "request-promise-native": "^1.0.5"
   }
 }

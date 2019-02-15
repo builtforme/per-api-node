@@ -68,3 +68,8 @@ async function getLastWeekReport() {
 ## Further details
 
 This API wrapper assumes that you’re using async/await or Promise-based coding. If you prefer using callbacks, you can create a simple wrapper, or just call the API endpoints directly. The wrapper also assumes that any errors should result in an exception being thrown; values are returned (i.e. the Promise resolves) if and only if the API was called successfully and no errors occurred.
+
+## Change history
+
+- **v0.0.1** (2019-02-15)
+  - initial release
