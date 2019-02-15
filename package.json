@@ -1,6 +1,6 @@
 {
   "name": "per-api",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "Built For Me <npm@builtforme.tech> (https://www.builtforme.tech/)",
   "description": "Client library for Per (https://useper.com)",
   "license": "ISC",
